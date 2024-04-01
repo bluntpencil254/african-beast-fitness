@@ -1,4 +1,4 @@
-import { whatsapp} from 'boxicons';
+import { whatsapp } from 'boxicons';
 
 const Icons = () => {
     return ( 

@@ -1,12 +1,14 @@
 import Icons from './icons';
 import Navbar from './navbar';
+import Login from './login';
 
 function App() {
   return (
     <div className="App">
       <Icons />
-      <Navbar />
-     <p>coming soon</p>
+          <Navbar />
+              <Login />
+     
      
     </div>
   );

@@ -26,21 +26,64 @@
 }
 
 .links a:first-child:hover{
-  background-color: #fff;
+  background-color: unset;
 }
 .links a{
   text-decoration: none;
-  color: #000;
+  color: #fdf9f9;
   padding: 12px;
 }
 
 .links a:hover{
-  background-color: #ff2;
+  background-color: #000;
 }
+
+
+.login{
+  height: 600px;
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ff2;
+}
+
+.login .mess{
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+input{
+  border: none;
+  border-bottom: solid 3px;
+  background-color: #ff2;
+  
+}
+input:focus{
+  outline: none;
+  transform: scale(1.2);
+}
+
+
 button{
   height: 100%;
-  background-color: #ff2;
+  background-color: rgb(12, 12, 11);
   border: none;
   width: 100%;
   padding: 5px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+button:hover{
+  background-color: rgb(139, 139, 136);
+}
+
+body{
+  background-image: url(images/back\ 2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
